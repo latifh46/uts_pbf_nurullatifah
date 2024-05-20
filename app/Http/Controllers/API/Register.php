@@ -10,7 +10,7 @@ use Illuminate\Database\QueryException;
 
 class Register
 {
-    public function index(Request $request, Response $response)
+    public function create(Request $request, Response $response)
     {
         $data = $request->all();
 
